@@ -11,6 +11,14 @@ document.addEventListener('DOMContentLoaded', (e) => {
         renderNewQuote(form)
     })
 
+    document.addEventListener('click', (e) => {
+        if (e.target.className === 'btn-danger') {
+            let quoteId = e.target.id 
+            let quoteLi = e.target.parentNode.parentNode
+            deleteQuote(quoteId, quoteLi)
+        } 
+    })
+
     fetchQuotes()
 })
 
@@ -50,16 +58,45 @@ let renderQuote = (quote) => {
     likeButton.classList += 'btn-success'
     
     if (quote.likes) {
-        likeButton.innerHTML = `Likes: <span>${quote.likes.length}</span>`
+        likeButton.innerHTML = `Likes: <span class="like-span">${quote.likes.length}</span>`
     } else {
-        likeButton.innerHTML = `Likes: <span> 0 </span>`
+        likeButton.innerHTML = `Likes: <span class="like-span"> 0 </span>`
     }
+
+    likeButton.addEventListener('click', (e) => {
+        updateLikes(quote, e.target)
+    })
     blockQuote.appendChild(likeButton)
 
     let deleteButton = document.createElement('button')
     deleteButton.classList += 'btn-danger'
+    deleteButton.id = quote.id
     deleteButton.innerText = 'Delete'
     blockQuote.appendChild(deleteButton)
+}
+
+let deleteQuote = (quoteId, quoteLi) => {
+    fetch(`${QUOTEURL}/${quoteId}`, {method: 'DELETE'})
+    .then(response => response.json())
+    .then(quoteLi.remove())
+}
+
+let updateLikes = (quote, button) => {
+    const options = {
+        method: 'POST',
+        headers: {
+            'content-type': 'application/json',
+            'accept': 'application/json'
+        },
+        body: JSON.stringify({'quoteId': quote.id})
+    }
+    
+    fetch(LIKESURL, options)
+    .then(response => response.json())
+    .then(data => { 
+        let span = button.querySelector('span')
+        span.innerText = (parseInt(span.innerText, 10) + 1 )
+    })
 }
 
 let renderNewQuote = (form) => {
