@@ -44,16 +44,6 @@
       "id": 9,
       "quote": "Not everything that is faced can be changed, but nothing can be changed until it is faced.",
       "author": "James Baldwin"
-    },
-    {
-      "id": 10,
-      "quote": "You know, failure hurts. Any kind of failure stings. If you live in the sting, you will undoubtedly fail. My way of getting past the sting is to say no, I’m just not going to let this get me down.",
-      "author": "Sonia Sotomayor"
-    },
-    {
-      "id": 11,
-      "quote": "The here and now is all we have, and if we play it right it's all we'll need.",
-      "author": "Ann Richards"
     }
   ],
   "likes": [
@@ -63,9 +53,314 @@
       "createdAt": 1558524356
     },
     {
-      "quoteId": 10,
-      "id": 2,
-      "createdAt": 1558524358
+      "quoteId": 9,
+      "createdAt": 1595546544792,
+      "id": 3
+    },
+    {
+      "quoteId": 9,
+      "createdAt": 1595546544959,
+      "id": 4
+    },
+    {
+      "quoteId": 9,
+      "createdAt": 1595546545139,
+      "id": 5
+    },
+    {
+      "quoteId": 8,
+      "createdAt": 1595546546009,
+      "id": 6
+    },
+    {
+      "quoteId": 8,
+      "createdAt": 1595546546140,
+      "id": 7
+    },
+    {
+      "quoteId": 8,
+      "createdAt": 1595546546284,
+      "id": 8
+    },
+    {
+      "quoteId": 8,
+      "createdAt": 1595546546453,
+      "id": 9
+    },
+    {
+      "quoteId": 8,
+      "createdAt": 1595546546612,
+      "id": 10
+    },
+    {
+      "quoteId": 8,
+      "createdAt": 1595546546758,
+      "id": 11
+    },
+    {
+      "quoteId": 8,
+      "createdAt": 1595546546930,
+      "id": 12
+    },
+    {
+      "quoteId": 3,
+      "createdAt": 1595546548354,
+      "id": 13
+    },
+    {
+      "quoteId": 3,
+      "createdAt": 1595546548536,
+      "id": 14
+    },
+    {
+      "quoteId": 3,
+      "createdAt": 1595546548702,
+      "id": 15
+    },
+    {
+      "quoteId": 3,
+      "createdAt": 1595546548864,
+      "id": 16
+    },
+    {
+      "quoteId": 5,
+      "createdAt": 1595552486108,
+      "id": 20
+    },
+    {
+      "quoteId": 5,
+      "createdAt": 1595552486680,
+      "id": 21
+    },
+    {
+      "quoteId": 5,
+      "createdAt": 1595552486998,
+      "id": 22
+    },
+    {
+      "quoteId": 5,
+      "createdAt": 1595552487165,
+      "id": 23
+    },
+    {
+      "quoteId": 5,
+      "createdAt": 1595552501493,
+      "id": 24
+    },
+    {
+      "quoteId": 5,
+      "createdAt": 1595552502319,
+      "id": 25
+    },
+    {
+      "quoteId": 1,
+      "createdAt": 1595552503581,
+      "id": 26
+    },
+    {
+      "quoteId": 1,
+      "createdAt": 1595552504446,
+      "id": 27
+    },
+    {
+      "quoteId": 3,
+      "createdAt": 1595552505845,
+      "id": 28
+    },
+    {
+      "quoteId": 3,
+      "createdAt": 1595552506389,
+      "id": 29
+    },
+    {
+      "quoteId": 8,
+      "createdAt": 1595552612332,
+      "id": 30
+    },
+    {
+      "quoteId": 8,
+      "createdAt": 1595552612677,
+      "id": 31
+    },
+    {
+      "quoteId": 7,
+      "createdAt": 1595552613329,
+      "id": 32
+    },
+    {
+      "quoteId": 9,
+      "createdAt": 1595552614136,
+      "id": 33
+    },
+    {
+      "quoteId": 9,
+      "createdAt": 1595552614455,
+      "id": 34
+    },
+    {
+      "quoteId": 9,
+      "createdAt": 1595552616422,
+      "id": 35
+    },
+    {
+      "quoteId": 9,
+      "createdAt": 1595552616925,
+      "id": 36
+    },
+    {
+      "quoteId": 7,
+      "createdAt": 1595552618044,
+      "id": 37
+    },
+    {
+      "quoteId": 6,
+      "createdAt": 1595552620202,
+      "id": 38
+    },
+    {
+      "quoteId": 6,
+      "createdAt": 1595552620777,
+      "id": 39
+    },
+    {
+      "quoteId": 6,
+      "createdAt": 1595552621402,
+      "id": 40
+    },
+    {
+      "quoteId": 6,
+      "createdAt": 1595552621552,
+      "id": 41
+    },
+    {
+      "quoteId": 6,
+      "createdAt": 1595552621712,
+      "id": 42
+    },
+    {
+      "quoteId": 6,
+      "createdAt": 1595552621874,
+      "id": 43
+    },
+    {
+      "quoteId": 6,
+      "createdAt": 1595552622010,
+      "id": 44
+    },
+    {
+      "quoteId": 5,
+      "createdAt": 1595552622620,
+      "id": 45
+    },
+    {
+      "quoteId": 5,
+      "createdAt": 1595552622755,
+      "id": 46
+    },
+    {
+      "quoteId": 4,
+      "createdAt": 1595552624202,
+      "id": 47
+    },
+    {
+      "quoteId": 4,
+      "createdAt": 1595552624514,
+      "id": 48
+    },
+    {
+      "quoteId": 4,
+      "createdAt": 1595552624686,
+      "id": 49
+    },
+    {
+      "quoteId": 2,
+      "createdAt": 1595552628220,
+      "id": 50
+    },
+    {
+      "quoteId": 2,
+      "createdAt": 1595552628342,
+      "id": 51
+    },
+    {
+      "quoteId": 2,
+      "createdAt": 1595552628462,
+      "id": 52
+    },
+    {
+      "quoteId": 2,
+      "createdAt": 1595552629108,
+      "id": 53
+    },
+    {
+      "quoteId": 2,
+      "createdAt": 1595552629212,
+      "id": 54
+    },
+    {
+      "quoteId": 2,
+      "createdAt": 1595552630290,
+      "id": 55
+    },
+    {
+      "quoteId": 2,
+      "createdAt": 1595552630432,
+      "id": 56
+    },
+    {
+      "quoteId": 2,
+      "createdAt": 1595552630577,
+      "id": 57
+    },
+    {
+      "quoteId": 1,
+      "createdAt": 1595552632186,
+      "id": 58
+    },
+    {
+      "quoteId": 1,
+      "createdAt": 1595552632354,
+      "id": 59
+    },
+    {
+      "quoteId": 1,
+      "createdAt": 1595552632516,
+      "id": 60
+    },
+    {
+      "quoteId": 1,
+      "createdAt": 1595552632686,
+      "id": 61
+    },
+    {
+      "quoteId": 5,
+      "createdAt": 1595552633674,
+      "id": 62
+    },
+    {
+      "quoteId": 5,
+      "createdAt": 1595552633850,
+      "id": 63
+    },
+    {
+      "quoteId": 5,
+      "createdAt": 1595552634008,
+      "id": 64
+    },
+    {
+      "quoteId": 7,
+      "createdAt": 1595552635052,
+      "id": 65
+    },
+    {
+      "quoteId": 7,
+      "createdAt": 1595552635197,
+      "id": 66
+    },
+    {
+      "quoteId": 7,
+      "createdAt": 1595552635342,
+      "id": 67
     }
   ]
 }
